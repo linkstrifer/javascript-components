@@ -1,10 +1,10 @@
 # Applied Front-end
 
-- The basics
+- [The basics](#the-basics)
     - HTML, CSS and Javascript, how they work together
-- Components
-    - Why we need it
-    - How they work
+- [Components](#components)
+    - [Why we need it](#why-we-need-it)
+    - [How they work](#how-they-work)
 - Our first component
     - List component
 - Interaction with components
