@@ -59,3 +59,10 @@ Every component should work by itself, you only need to pass some data and even 
 Every component is a new instance of it, thats because if you need to use the same component twice, every component should has its own private state that doesn't affect the other one.
 
 [Back to top](#content)
+
+## Our first component
+
+List component:
+
+- [Code](https://github.com/linkstrifer/javascript-components/tree/feature/first-component/src)
+- [Sandbox](https://codesandbox.io/s/github/linkstrifer/javascript-components/tree/feature%2Ffirst-component/src)
