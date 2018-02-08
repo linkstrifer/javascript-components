@@ -48,7 +48,7 @@ Basically a component is composed by HTML fot the markup, CSS for the styling an
 
 ### Why we need it
 
-Components provide a way to write small parts with a consistent way to communicate it with other components (API) that can easily be orchestrated as part of a larger screen, application or system.
+**Components provide a way to write small parts** with a consistent way to communicate it with other components (API) that can easily be orchestrated as part of a larger screen, application or system.
 
 [Back to top](#content)
 
@@ -56,6 +56,13 @@ Components provide a way to write small parts with a consistent way to communica
 
 Every component should work by itself, you only need to pass some data and even that can be optional, that the first principle, you can create components using other components but every inner component should work isolated.
 
-Every component is a new instance of it, thats because if you need to use the same component twice, every one should has its own private state that doesn't affect the other one.
+Every component is a new instance of it, thats because if you need to use the same component twice, every component should has its own private state that doesn't affect the other one.
 
 [Back to top](#content)
+
+## Our first component
+
+List component:
+
+- [Code](https://github.com/linkstrifer/javascript-components/tree/feature/first-component/src)
+- [Sandbox](https://codesandbox.io/s/github/linkstrifer/javascript-components/tree/feature%2Ffirst-component/src)
