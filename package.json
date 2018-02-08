@@ -1,0 +1,30 @@
+{
+  "name": "javascript-components",
+  "version": "1.0.0",
+  "description": "## Content",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run server | npx cmd-watch -d components -c 'npm run dev:build'",
+    "dev:build": "npx browserify components/app.js -o build/app.js -t babelify",
+    "server": "python -m SimpleHTTPServer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkstrifer/javascript-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linkstrifer/javascript-components/issues"
+  },
+  "homepage": "https://github.com/linkstrifer/javascript-components#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.0.0",
+    "cmd-watch": "^1.0.10",
+    "eslint": "^4.17.0"
+  },
+  "dependencies": {}
+}
