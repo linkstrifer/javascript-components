@@ -2,10 +2,10 @@
   "name": "javascript-components",
   "version": "1.0.0",
   "description": "## Content",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "npm run server | npx cmd-watch -d components -c 'npm run dev:build'",
-    "dev:build": "npx browserify components/app.js -o build/app.js -t babelify",
+    "dev:build": "npx browserify app.js -o build/app.js -t babelify",
     "server": "python -m SimpleHTTPServer"
   },
   "repository": {
